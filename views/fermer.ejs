@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fermeture</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <%- include('./header.ejs') %>
+
+    <main class="container">
+      <div class="fermeture-message">
+        <h1>Nous sommes actuellement fermés</h1>
+        <p>
+          Notre site est disponible uniquement pendant nos heures d'ouverture.
+        </p>
+
+        <h2>Horaires d'ouverture</h2>
+        <p>
+          <strong>Lundi - Vendredi :</strong> 9h00 - 17h00<br />
+          <strong>Samedi - Dimanche :</strong> Fermé
+        </p>
+
+        <p>
+          Merci de revenir pendant nos heures d'ouverture pour accéder à nos
+          services.
+        </p>
+
+        <p class="contact-info">
+          Pour toute urgence, vous pouvez nous contacter par email à
+          <strong>contact@entreprise.fr</strong>
+        </p>
+      </div>
+    </main>
+
+    <%- include('./footer.ejs') %>
+  </body>
+</html>
