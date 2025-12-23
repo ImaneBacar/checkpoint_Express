@@ -47,8 +47,8 @@ projet/
 1. Cloner le repository
 
 ```bash
-git clone [URL_DU_REPO]
-cd [NOM_DU_DOSSIER]
+git clone https://github.com/ImaneBacar/checkpoint_Express
+cd Checkpoint_Express
 ```
 
 2. Installer les dépendances
